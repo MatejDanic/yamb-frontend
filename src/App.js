@@ -19,6 +19,7 @@ import './App.css';
 export const queryClient = new QueryClient();
 
 const RECAPTCHA_SITE_KEY = process.env.REACT_APP_RECAPTCHA_SITE_KEY;
+console.log(RECAPTCHA_SITE_KEY);
 
 function App() {
 	
