@@ -1,7 +1,7 @@
 import axios, { AxiosInstance, AxiosResponse, AxiosError, InternalAxiosRequestConfig } from 'axios';
 
 const API_URL = process.env.REACT_APP_API_URL;
-const LOCAL_STORAGE_KEY_TOKEN = "token";
+console.log(API_URL);
 
 let isRefreshing = false;
 let failedQueue: any[] = [];
